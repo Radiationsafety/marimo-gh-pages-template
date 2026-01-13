@@ -1,3 +1,12 @@
+# /// script
+# requires-python = ">=3.13"
+# dependencies = [
+#     "bssunfold",
+#     "cvxpy[ecos]",
+#     "pandas==2.3.3",
+#     "plotly",
+# ]
+# ///
 import marimo
 
 __generated_with = "0.19.2"
