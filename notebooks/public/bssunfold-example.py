@@ -3,13 +3,14 @@
 # dependencies = [
 #     "bssunfold",
 #     "cvxpy[ecos]",
-#     "pandas==2.3.3",
+#     "pandas",
 #     "plotly",
 # ]
 # ///
+
 import marimo
 
-__generated_with = "0.19.1"
+__generated_with = "0.19.2"
 app = marimo.App()
 
 
@@ -150,5 +151,3 @@ def _(go, result):
 
 if __name__ == "__main__":
     app.run()
-
-# end
